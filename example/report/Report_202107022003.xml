@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="3.623">
+    <testcase classname="We want to test if our favorite coin is listed on CoinGecko" name="Check if Monero coin is listed" time="2.788">
+        <failure message="" type="java.lang.AssertionError"><![CDATA[Given Connexion to CoinGecko ok.............................................passed
+When I call the list of listed coin on CoinGecko............................passed
+Then Verify "Monero" is listed on CoinGecko.................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.capitoleconsulting.technicalqainterview.testengine.example.libraries.CommonLibrary.verifyIsListedOnCoinGecko(CommonLibrary.java:51)
+	at ✽.Verify "Monero" is listed on CoinGecko(file:///home/asbai/Desktop/Workspace/technical_QA_interview/example/features/CoinGeckoFeature.feature:6)
+]]></failure>
+    </testcase>
+    <testcase classname="We want to test if our favorite coin is listed on CoinPaprika" name="Check if Monero coin is listed" time="0.011">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Connexion to CoinPaprika is ok........................................undefined
+When I call the list of listen coin on Coin Paprika.........................skipped
+Then Verify "Monero" is listed..............................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="We Verify if wikipedia knows about our coin" name="Check if Wikipedia knows about our code" time="0.007">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Set our favourite coin to "Monero"....................................undefined
+When Open "https://google.fr"...............................................skipped
+And Make a google search....................................................skipped
+And Close Browser...........................................................skipped
+Then Verify There is a wikipedia link.......................................skipped
+]]></failure>
+    </testcase>
+</testsuite>

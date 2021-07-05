@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="2.164">
+    <testcase classname="We want to test if our favorite coin is listed on CoinGecko" name="Check if Monero coin is listed" time="1.282">
+        <system-out><![CDATA[Given Connexion to CoinGecko ok.............................................passed
+When I call the list of listed coin on CoinGecko............................passed
+Then Verify "Monero" is listed on CoinGecko.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="We want to test if our favorite coin is listed on CoinPaprika" name="Check if Monero coin is listed" time="0.006">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Connexion to CoinPaprika is ok........................................undefined
+When I call the list of listen coin on Coin Paprika.........................skipped
+Then Verify "Monero" is listed..............................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="We Verify if wikipedia knows about our coin" name="Check if Wikipedia knows about our code" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Set our favourite coin to "Monero"....................................undefined
+When Open "https://google.fr"...............................................skipped
+And Make a google search....................................................skipped
+And Close Browser...........................................................skipped
+Then Verify There is a wikipedia link.......................................skipped
+]]></failure>
+    </testcase>
+</testsuite>

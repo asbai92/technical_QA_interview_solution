@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<services>
+
+    <serviceInformations>
+        <service_name>com.capitoleconsulting.technicalqainterview.testengine.example.controllers.CoinGeckoController</service_name>
+        <service_url>https://api.coingecko.com</service_url>
+        <service_port>:443</service_port>
+
+        <service_name>com.capitoleconsulting.technicalqainterview.testengine.example.controllers.CoinPaprikaController</service_name>
+        <service_url>https://api.coinpaprika.com/</service_url>
+        <service_port>:443</service_port>
+    </serviceInformations>
+
+</services>
